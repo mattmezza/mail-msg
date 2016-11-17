@@ -1,0 +1,18 @@
+{
+    "name": "mattmezza/php-mail-msg",
+    "description": "Need to send an email from your webserver's MTA using the mail() function??",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matteo Merola",
+            "email": "mattmezza@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "PHPMailMsg\\": "src/"
+      }
+    }
+}
